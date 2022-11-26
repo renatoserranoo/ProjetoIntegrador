@@ -220,6 +220,6 @@ public class FichaAtendimento {
                 default:
                     System.out.println("Opção inválida, tente novamente.");
             }
-        }while(op != 3);
+        }while(op != 7);
     }
 }

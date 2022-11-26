@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5bb0215-07a9-4770-90f2-8360bf836967" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d5bb0215-07a9-4770-90f2-8360bf836967" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/src/app/FichaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/FichaAtendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/anamneseEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/AnamneseEspecial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/anamneseGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/AnamneseGeral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/exameFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ExameFisico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666374953700</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1669423885735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669423885735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
