@@ -1,6 +1,6 @@
 package entity;
 
-public class exameFisico {
+public class ExameFisico {
     public String postura;
     public String nvConsciencia;
     public String escoreCorporal;
@@ -19,7 +19,7 @@ public class exameFisico {
     public String mucosaPeniana;
     public String mucosaAnal;
 
-    public exameFisico(String postura, String nvConsciencia, String escoreCorporal,
+    public ExameFisico(String postura, String nvConsciencia, String escoreCorporal,
                        float tr, int fr, int fc, int tpc, int pulso, String hidratacao,
                        String linfonodosSub, String linfPreEscapulares, String linfPopliteos,
                        String linfInguinais, String mucosaOcular, String mucosaOral,
@@ -41,5 +41,12 @@ public class exameFisico {
         this.mucosaOral = mucosaOral;
         this.mucosaPeniana = mucosaPeniana;
         this.mucosaAnal = mucosaAnal;
+
+    }
+    @Override
+    public String toString(){
+        return postura+"\n" + nvConsciencia +"\n" + escoreCorporal +"\n"+ tr + "" +fc+ "" + tpc + "" + pulso + "\n"
+                + hidratacao+"\n"+linfonodosSub+ "\n"+ linfPreEscapulares+ "\n"+linfPopliteos+ "\n"+
+                linfInguinais+ "\n"+mucosaOcular+ "\n" +mucosaOral+ "\n"+mucosaPeniana+ "\n"+mucosaAnal;
     }
 }

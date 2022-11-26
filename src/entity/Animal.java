@@ -76,4 +76,10 @@ public class Animal {
     public String getProcedencia() {
         return procedencia;
     }
+
+    @Override
+    public String toString(){
+        return  apelido + "\n" + especie + "\n" + raca + "\n" + sexo + "\n" +
+                pelagem + "\n" + procedencia + "\n"+ idade + "\n" + peso;
+    }
 }

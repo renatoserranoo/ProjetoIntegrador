@@ -1,6 +1,6 @@
 package entity;
 
-public class anamneseEspecial {
+public class AnamneseEspecial {
     public String sisRespiratorio;
     public String sisCardio;
     public String sisDigestorio;
@@ -11,7 +11,7 @@ public class anamneseEspecial {
     public String pele;
     public String olhos;
 
-    public anamneseEspecial(String sisRespiratorio, String sisCardio, String sisDigestorio, String sisUrinario,
+    public AnamneseEspecial(String sisRespiratorio, String sisCardio, String sisDigestorio, String sisUrinario,
                             String sisReprodutor, String sisLocomotor, String sisNeuro, String pele, String olhos) {
         this.sisRespiratorio = sisRespiratorio;
         this.sisCardio = sisCardio;
@@ -22,5 +22,10 @@ public class anamneseEspecial {
         this.sisNeuro = sisNeuro;
         this.pele = pele;
         this.olhos = olhos;
+    }
+    @Override
+    public String toString(){
+        return sisRespiratorio + "\n" + sisCardio + "\n" +sisDigestorio + "\n" + sisUrinario + "\n" +
+                sisReprodutor + "\n" + sisLocomotor + "\n" +sisNeuro +"\n"+ pele +"\n"+ olhos;
     }
 }

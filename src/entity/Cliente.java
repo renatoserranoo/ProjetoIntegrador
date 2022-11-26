@@ -27,11 +27,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getCpf() {
+    private String getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    private void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
@@ -65,5 +65,11 @@ public class Cliente {
 
     public String getCidade() {
         return cidade;
+    }
+
+    @Override
+    public String toString(){
+        return nome + "\n" + cpf + "\n" +endereco + "\n" + celular + "\n" +
+                UF + "\n" + cidade + "\n" +telefoneFixo;
     }
 }
