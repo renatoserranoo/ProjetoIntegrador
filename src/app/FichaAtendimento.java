@@ -52,6 +52,7 @@ public class FichaAtendimento {
 
                     Cliente cliente = new Cliente(nome, cpf, endereco, celular, UF, cidade, telefoneFixo);
 
+                    cliente.exibir();
                     listaDeFichas.add(cliente);
                 case 2:
                     System.out.println("Bem vindo ao sistema de cadastro de Animais.");
@@ -82,6 +83,7 @@ public class FichaAtendimento {
 
                     Animal animal = new Animal(apelido,especie,raca,sexo,pelagem,procedencia,idade,peso);
 
+                    animal.exibirAnimal();
                     listaDeFichas.add(animal);
                 case 3:
                     System.out.println("Bem vindo ao sistema de cadastro de Anamnese Geral.");
@@ -111,6 +113,7 @@ public class FichaAtendimento {
                     AnamneseGeral anamnese = new AnamneseGeral(queixaPrincipal, historicoMedico, alimentacao,
                             contactantes, vacinacao, vermifugacao, ambiente);
 
+                    anamnese.exibirAnamnese();
                     listaDeFichas.add(anamnese);
                     break;
                 case 4:

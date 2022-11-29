@@ -26,6 +26,10 @@ public class Cliente {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+    public void exibir(){
+        System.out.printf("Nome: %s \nCPF: %s \nendereco: %s \nCelular: %s \nUF: %s \nCidade: %s \nTelefone: %s \n",
+                nome, cpf, endereco, celular, UF, cidade, telefoneFixo);
+    }
 
     @Override
     public String toString(){

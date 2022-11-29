@@ -20,6 +20,10 @@ public class Animal {
         this.pelagem = pelagem;
         this.procedencia = procedencia;
     }
+    public void exibirAnimal(){
+        System.out.printf("Nome: %s \nespecie: %s \nraca: %s \nsexo: %s \nidade: %s \nPeso: %s \npelagem: %s \nprocedencia: %s.\n",
+                apelido, especie, raca, sexo, idade, peso, pelagem, procedencia);
+    }
     @Override
     public String toString(){
         return  apelido + "\n" + especie + "\n" + raca + "\n" + sexo + "\n" +

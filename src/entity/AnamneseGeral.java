@@ -18,6 +18,10 @@ public class AnamneseGeral {
         this.vermifugacao = vermifugacao;
         this.ambiente = ambiente;
     }
+    public void exibirAnamnese(){
+        System.out.printf("Queixa: %s \nHistorico medico: %s \nAlimentacao: %s \ncontactantes: %s \nvacinacao: %s \nvermifugacao: %s \nalimentacao: %s.\n",
+                queixaPrincipal,historicoMedico,alimentacao,contactantes,vacinacao,vermifugacao,alimentacao);
+    }
     @Override
     public String toString(){
         return queixaPrincipal + "\n" +historicoMedico + "\n" +alimentacao + "\n" + contactantes
