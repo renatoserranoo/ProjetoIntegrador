@@ -52,7 +52,6 @@ public class FichaAtendimento {
 
                     Cliente cliente = new Cliente(nome, cpf, endereco, celular, UF, cidade, telefoneFixo);
 
-                    listaDeFichas.add("Cadastro");
                     listaDeFichas.add(cliente);
                 case 2:
                     System.out.println("Bem vindo ao sistema de cadastro de Animais.");
@@ -86,6 +85,7 @@ public class FichaAtendimento {
                     listaDeFichas.add(animal);
                 case 3:
                     System.out.println("Bem vindo ao sistema de cadastro de Anamnese Geral.");
+                    String f = scan.nextLine();
 
                     System.out.print("queixaPrincipal: ");
                     String queixaPrincipal = scan.nextLine();
@@ -206,8 +206,8 @@ public class FichaAtendimento {
 
                     ExameFisico exame = new ExameFisico(postura, nvConsciencia, escoreCorporal, tr,  fr, fc,
                             tpc, pulso,hidratacao, linfonodosSub, linfPreEscapulares, linfPopliteos,
-                        linfInguinais,  mucosaOcular, mucosaOral,
-                         mucosaPeniana,  mucosaAnal);
+                            linfInguinais,  mucosaOcular, mucosaOral,
+                            mucosaPeniana,  mucosaAnal);
 
                     listaDeFichas.add(exame);
                     break;

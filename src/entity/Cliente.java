@@ -19,52 +19,12 @@ public class Cliente {
         this.celular = celular;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    private String getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    private void setCpf(String cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
-    public String getTelefoneFixo() {
-        return telefoneFixo;
-    }
-
-    public void setTelefoneFixo(String telefoneFixo) {
-        this.telefoneFixo = telefoneFixo;
-    }
-
-    public String getCelular() {
-        return celular;
-    }
-
-    public void setCelular(String celular) {
-        this.celular = celular;
-    }
-
-    public String getUF() {
-        return UF;
-    }
-
-    public String getCidade() {
-        return cidade;
     }
 
     @Override
